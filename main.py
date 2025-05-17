@@ -11,7 +11,7 @@ class Reg(StatesGroup):
     phone = State()
 
 
-BOT_TOKEN = "7475860566:AAFKC9j1e3w9Idcs2IyZOxBq9LFFDRuqOmk"
+BOT_TOKEN = "7475860566:AA..."
 bot = Bot(BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
